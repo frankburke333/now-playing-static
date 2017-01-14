@@ -195,3 +195,63 @@ figure {
 .about > p {
   margin: 0;
 }
+
+
+@media screen and (min-width: 768px) {
+  .site-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 112px;
+    z-index: 99;
+    background-color: #ffffff;
+}
+    .site-nav-list {
+      margin-top: 5em;
+    }
+
+    main {
+      width: 84%;
+      margin-left: 112px;
+    }
+
+
+    .site-nav-item {
+    width: 100%;
+    font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+  }
+
+    .movie-overview {
+      display: inline;
+      font-size: 1em;
+    }
+
+    section.about {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .site-footer {
+      margin-left: 112px;
+      width: 84%;
+      display: inline-flex;
+    }
+
+    nav.footer-nav {
+        width: 50%;
+
+    }
+
+    ul.footer-nav-list {
+    display: flex;
+    }
+
+    span.footer-nav-item-label {
+    margin-right: -3px;
+}
+
+}
