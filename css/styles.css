@@ -255,3 +255,26 @@ figure {
 }
 
 }
+
+
+
+@media screen and (min-width: 992px) {
+  .site-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 112px;
+    z-index: 99;
+    background-color: #ffffff;
+}
+
+
+  .movie:nth-child(n+2) {
+    width: 33%;
+    display: inline-block;
+  }
+
+  .movie:nth-child(n+2) .movie-overview{
+    display: none;
+  }
